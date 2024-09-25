@@ -1,0 +1,14 @@
+[package]
+name = "greeter"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+tcl = "0.1.9"
+tcl_derive = "0.1.5"
+thiserror = "1.0.44"
+version = "3.0.0"
